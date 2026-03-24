@@ -10,6 +10,14 @@ DEBUG_MODE = False
 
 st.set_page_config(page_title="County Search Portal", page_icon="🔎", layout="wide")
 
+st.markdown("""
+    <style>
+    header {visibility: hidden;}
+    [data-testid="stHeader"] {display: none;}
+    .stApp {margin-top: -80px;}
+    </style>
+""", unsafe_allow_html=True)
+
 st.markdown(
     """
     <style>

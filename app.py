@@ -14,7 +14,14 @@ st.markdown("""
     <style>
     header {visibility: hidden;}
     [data-testid="stHeader"] {display: none;}
-    .stApp {margin-top: -80px;}
+
+    .stApp {
+        margin-top: -60px;
+    }
+
+    .block-container {
+        padding-top: 2rem !important;
+    }
     </style>
 """, unsafe_allow_html=True)
 

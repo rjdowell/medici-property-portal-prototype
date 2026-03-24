@@ -16,7 +16,7 @@ st.markdown("""
     [data-testid="stHeader"] {display: none;}
 
     .stApp {
-        margin-top: -120px;
+        margin-top: 60px;
     }
 
     .block-container {
